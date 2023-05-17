@@ -17,3 +17,10 @@ public:
 
 } bukunya;
 
+int main()
+{
+	bukunya.setJudul("Matematika");
+	cout << bukunya.getJudul();
+	cout << bukunya.getJudul(); // chain function calls
+	return 0;
+}
